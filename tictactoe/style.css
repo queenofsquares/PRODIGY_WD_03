@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    background: #fff;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 700px;
+    min-height: 500px;
+    border-radius: 5%;
+    margin: auto;
+    background: #eee url('https://i.pinimg.com/736x/89/a4/59/89a4596fab35f06216e11120e0eea3eb.jpg') no-repeat
+      center center/cover;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  td {
+    background-color: #666;
+    
+    border: 5px solid white;
+    font-size: 80px;
+    color: #fff;
+    border-radius: 10%;
+    background: #eee url('https://wallpapers.com/images/hd/dark-gradient-6bly12umg2d4psr2.jpg') no-repeat
+      center center/cover;
+  }
+  
+  #player {
+    display: flex;
+    background: #200202;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 5%;
+    margin: auto;
+    background: #eee url('https://i.pinimg.com/736x/89/a4/59/89a4596fab35f06216e11120e0eea3eb.jpg') no-repeat
+      center center/cover;
+  }
+  
+  body {
+    display: flex;
+    background: #eee url('https://diskanak.bogorkab.go.id/wp-content/uploads/2022/07/122393_hd-desktop-technology-wallpaper-backgrounds-for-download_1920x1200_h.jpg') no-repeat
+      center center/cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
